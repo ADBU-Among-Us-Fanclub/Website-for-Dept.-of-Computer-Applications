@@ -4,11 +4,11 @@ A website we made for the Department of Computer Applications (ADBU, Guwahati), 
 Please open the "[HTML Files/homePage.html](https://github.com/ADBU-Among-Us-Fanclub/Website-for-Dept.-of-Computer-Applications/tree/main/HTML%20Files)" file to access all the webpages.
 
 Contributing Members:
-
-  HTML Pages by: Ruhul, Shourya, Bhargav & Lian
-  CSS Pages by: Ruhul, Shourya, Bhargav & Lian
-  JS Page by: Lian & Bhargav
-  Images & Editing by: Ruhul
-  Debugging & Testing by: Ruhul, Shourya, Bhargav & Lian
-  Responsive Designing by: Lian & Bhargav
-  Design Ideas by: Shourya
+<br>
+<br>  HTML Pages by: Ruhul, Shourya, Bhargav & Lian
+<br>  CSS Pages by: Ruhul, Shourya, Bhargav & Lian
+<br>  JS Page by: Lian & Bhargav
+<br>  Images & Editing by: Ruhul
+<br>  Debugging & Testing by: Ruhul, Shourya, Bhargav & Lian
+<br>  Responsive Designing by: Lian & Bhargav
+<br>  Design Ideas by: Shourya
