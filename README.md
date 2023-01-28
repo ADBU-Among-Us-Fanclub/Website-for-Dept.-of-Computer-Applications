@@ -1,7 +1,7 @@
 # Website-for-Dept.-of-Computer-Applications
 A website we made for the Department of Computer Applications (ADBU, Guwahati), as part of our Web Technologies final subject project.
 
-Please open the [html/homePage.html](https://github.com/ADBU-Among-Us-Fanclub/Website-for-Dept.-of-Computer-Applications/blob/main/HTML%20Files/homePage.html) file to access all the webpages.
+Please open the "[HTML Files/homePage.html](https://github.com/ADBU-Among-Us-Fanclub/Website-for-Dept.-of-Computer-Applications/tree/main/HTML%20Files)" file to access all the webpages.
 
 Contributing Members:
 
