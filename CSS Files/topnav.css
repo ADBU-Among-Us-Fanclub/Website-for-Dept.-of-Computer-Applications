@@ -1,0 +1,132 @@
+#topnav{
+    position: fixed;
+    right: 0;
+    top: 30px;
+    
+}
+
+.header>img{
+    width: 80px;
+    height: 80px;
+    z-index: 0;
+    position: fixed;
+    top: 13px;
+    left: 10px;
+}
+
+.navLinks{
+    padding: 0.8em;
+    margin-top: -1px;
+}
+
+.navLinks>a{
+    padding: inherit;
+}
+
+.dropdown{
+    display: inline;
+    padding: inherit;
+    
+}
+
+.drop-content{
+    display: none;
+    position: absolute;
+    padding: 0.8rem;
+}
+
+.dropdown:hover .drop-content{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.dropdown:hover .drop-content#fac-drp{
+    margin-left: 55px;
+    margin-top: 12px;
+}
+
+.dropdown:hover .drop-content#prog-drp{
+    margin-left: calc(55px * 4);
+    margin-top: 12px;
+}
+
+#prog-drp a{
+    margin-top: 7px;
+}
+
+#sidebarBtn{
+    margin-right: 1vw;
+    background-color: #008E97;
+    border: none;
+    float: right;
+}
+
+.bar{
+    background-color: black;
+    height: 5px;
+    width: 45px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#sidebarBtn{
+    display: none;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .navLinks{
+        display: none;
+    }
+
+    #sidebarBtn{
+        display: initial;
+        position: fixed;
+        right: 0;
+    }
+
+    #sidebarBtn:hover .bar{
+        background-color: darkgrey;
+    }
+
+    .responsive{
+        position: relative;
+        top: 72px;
+        float: right;
+        display: initial;
+        height: 100vh;
+        font-size: 1.3rem;
+    }
+
+    .responsive a{
+        display: block;
+    }
+
+    #content.responsive{
+        margin-top: 20px;
+        margin-right: 230px;
+        z-index: -1;
+        opacity: 0.2;
+    }
+
+    #content.default.responsive{
+        margin-top: initial;
+    }
+
+    #sub-header.responsive{
+        margin-top: 40px;
+        margin-right: 230px;
+        z-index: -1;
+        opacity: 0.2;
+    }
+
+    .dropdown:hover .drop-content#fac-drp, .dropdown:hover .drop-content#prog-drp{
+        display: block;
+        font-size: 1rem;
+        width: inherit;
+        position: relative;
+        right: -30px;
+        margin: inherit;
+        padding: 0;
+    }
+}

@@ -1,0 +1,93 @@
+html{
+    font-size: 16px;
+}
+
+#mov{
+    margin-left: 100px;
+}
+
+nav{
+    padding: 0.8em;
+    font-family: Arial Rounded MT Bold, Helvetica, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+}
+
+#headText{
+    font-family: Copperplate Gothic, Helvetica, 'Trebuchet MS', sans-serif;
+    font-size: 3em;
+}
+
+#topnav>a{
+    padding: inherit;
+}
+
+.navLinks a{
+    text-decoration: none;
+}
+
+.dropdown .drop-btn{
+    font-size: inherit;
+    padding: inherit;
+}
+
+.drop-content{
+    font-size: 0.88rem;
+}
+
+p{
+    font-family: Garamond, 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+ol li{
+    font-family: Garamond, 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+ul li{
+    font-family: Garamond, 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+h1{
+    font-family: Arial Rounded MT Bold, Helvetica, 'Trebuchet MS', sans-serif ;
+    font-size: 2.5rem;
+}
+
+h2{
+    font-family: Arial Rounded MT Bold, Helvetica, 'Trebuchet MS', sans-serif ;
+    font-size: 1.5rem;
+}
+
+h3{
+    font-family: Garamond, Helvetica, 'Trebuchet MS', sans-serif ;
+    font-size: 1.2rem;
+}
+
+th, td{
+    font-family: Garamond, 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+}
+
+body#us div#content h1{
+    font-size: 3rem;
+}
+
+body#us div#content p{
+    font-size: 1.7rem;
+}
+
+#us #content ul li{
+    font-size: 1.2rem;
+}
+
+#us #credits{
+    text-align: center;
+}
+
+.red_bold{
+    font-weight: normal;
+}

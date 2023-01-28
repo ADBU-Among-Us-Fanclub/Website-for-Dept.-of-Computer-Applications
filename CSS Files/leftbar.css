@@ -1,0 +1,75 @@
+.leftbar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    margin-top: 101px;
+    background-image: url("../Images/bg2.png");
+}
+
+.leftbar h3{
+    margin-left: 60px;
+    color: black;
+    transition: 0.5s;
+}
+
+.leftbar h4{
+    margin-left: 60px;
+    color: lightgrey;
+    transition: 0.5s;
+}
+
+.leftbar img{
+    display: block;
+    margin-left: 80px;
+    transition: 0.5s;
+}
+
+.leftbar p{
+    text-align: justify;
+    transition: 0.5s;
+}
+
+.leftbar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: black;
+    display: block;
+    transition: 0.5s;
+}
+
+.openbtn {
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #00573F;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #ACE1AF;
+    color:black;
+}
+
+.closebtn{
+    background-color: inherit;
+    border: none;
+    size: 1vw;
+}
+
+.closebtn:hover{
+    color: grey;
+}
+
+.closebtn:active{
+    color:black;
+}
